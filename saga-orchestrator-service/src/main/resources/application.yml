@@ -1,0 +1,13 @@
+server:
+  port: 0
+
+spring:
+  application:
+    name: orchestrator-service
+  kafka:
+    bootstrap-servers: localhost:9092
+
+logging:
+  level:
+    com.sayilircoder.saga_orchestrator_service: DEBUG
+    org.springframework.kafka: INFO
